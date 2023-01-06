@@ -1,0 +1,57 @@
+.text-head{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.text-head-content{
+    margin: 5px;
+}
+.left{
+    border: 1px solid black;
+    border-radius: 10px;
+    /*  padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    justify-content: flex-start;
+    box-shadow: 5px 1px 8px #888888;
+    overflow: hidden;
+}
+.container{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+.upgrade-head{
+    padding: 10px;
+    font-size: larger;
+    font-weight: 400
+}
+.free{
+    background-color: green;
+    color: white;
+    overflow: hidden;
+    overflow-x: hidden;
+    font-size: x-large;
+    
+}
+.premium{
+    background-color: orange;
+    color: white;
+    overflow: hidden;
+    overflow-x: hidden;
+    font-size: x-large;
+}
+.sub-header{
+    overflow: hidden;
+    
+}
+.lastline{
+    font-size: large;
+    background-color: antiquewhite;
+    height: 2rem;  
+    overflow:hidden ;  
+}

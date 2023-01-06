@@ -1,0 +1,46 @@
+.outest{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.outside-outer-one{
+    font-size: xx-large;
+    padding: 10px;
+}
+.outside-outer-two{
+    font-size: large;
+    padding: 10px;
+}
+.outer{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    height: 300px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.inner .progress{
+    flex: 70%;
+    color: #499557;
+}
+.progress-circle{
+    width: 100%;
+}
+.progress-content{
+    display: flex;
+    flex-direction: column;
+}
+.progress-content-main{
+    color: #499557;
+    font-size: 40px;
+    font-weight: 800;
+}
+
